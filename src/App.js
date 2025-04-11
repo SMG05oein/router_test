@@ -19,7 +19,7 @@ function App() {
             <Route path="" element={<HomePage/>}/>{/*스프링 부트에서 본 거 같은*/}
             <Route path="/about" element={<AboutPage/>}/>
             <Route path="/product" element={<ProductPag/>}/>
-            <Route path="/product_view" element={<ProductView/>}/>
+            <Route path="/product/:id/:mon" element={<ProductView/>}/>
         </Routes>
       {/*<HomePage/>*/}
       {/*<AboutPage/>*/}
